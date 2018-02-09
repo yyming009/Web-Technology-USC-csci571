@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+
+	<style>
+		#container{
+			width: 1172px;
+			margin: auto;
+		}
+
+		#upper{
+			height: 715px;
+		}
+		#NO{
+			height: 262px;
+			width: 430px;
+			background: black;
+			margin-top: 46px;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			color: white;
+			font-family: Arial, sans-serif;
+		}
+		#p1{
+			padding-top: 60px;
+			font-size: 15px;
+			letter-spacing: 4px;
+			font-weight: bold;
+		}
+		
+		#N13{
+			width: 250px;
+			height: 130px;
+			margin: auto;
+			background-color: black;
+			margin-top: 20px;
+		}
+		.a_no{
+			color: white;
+			text-decoration: underline;	
+			outline: none;
+		}
+		.a_13{
+			color: white;
+			text-decoration: none;
+			outline: none;	
+		}
+		#No{
+			height: 121px;
+			width: 100px;
+			margin-left: 8px;
+			text-align: right;
+			float: left;
+			font-size: 60px;
+			background-color: black;	
+		}
+		#nmb13{
+			width: 130px;
+			height: 121px;
+			float: left;
+			background-color: black;
+			text-align: auto;
+			font-size: 120px;
+			padding: 0px;
+			line-height: 108px;
+
+		}
+
+		#sayhello{
+			height: 255px;
+			clear: left;
+			background-image: url(http://cs-server.usc.edu:45678/hw/hw3/images/sayhello.png);
+			background-position: -53px 38px;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			text-align: center;
+			
+		}
+		#pp1{
+			color: #b59b4a;
+			letter-spacing: 5px;
+		}
+		#pp2{
+			line-height: 20px;
+		}
+
+		#touch{
+			height: 62px; width: 291px;
+			margin: auto;
+			margin-top: 15px; 
+		}
+		.a_touch{
+			color: black;
+			text-decoration: none;
+			outline: none;	
+		}
+		.buttontrans1{
+			background-color: white;
+			color: black;
+			cursor: pointer;
+		}
+		.buttontrans1:focus {
+    		background: black;
+    		color: white;
+    		cursor: pointer;
+    	}
+		.buttontrans1:hover {
+    		background: black;
+    		color: white;
+    		cursor: pointer;
+		}
+		
+
+		#bottom{
+			height: 537px;
+			background: black;
+			clear: left;
+			font-family: Arial, sans-serif;
+		}
+		.bottom_header1{
+			color: #b59b4a;
+			letter-spacing: 4px;
+		}
+		.bottom_header2{
+			color: white;
+			letter-spacing: 4px;
+		}
+		.content{
+			color: white;
+			font-size: 14px;
+			line-height: 19px;
+		}
+		.te{
+			color: #b59b4a;
+			font-size: 14px;
+			line-height: 19px;
+		}
+		.e_underline{
+			color: white;
+			text-decoration: underline;
+			font-size: 14px;
+			line-height: 19px;
+		}
+		.e_underline:hover{
+			color: white;
+			text-decoration: none;
+			font-size: 14px;
+			line-height: 19px;
+		}
+
+		#d1{
+			height: 202px;
+			width: 440px;
+			text-align: center;
+			float: left;
+			border-right: 1px solid #3b3b3b;
+			border-bottom: 1px solid #3b3b3b;
+		}
+		.link1{
+			color: white;
+			line-height: 13;
+			letter-spacing: 4px;
+			font-size: 13px;
+			text-decoration:none;
+			outline: none;
+		}
+		.link1:focus{
+			text-decoration: underline;
+			color: white;
+			letter-spacing: 4px;
+			font-size: 13px;
+			line-height: 13;
+			outline: 1px dotted;
+		}
+		.link1:hover{
+			text-decoration: underline;
+			color: white;
+			letter-spacing: 4px;
+			font-size: 13px;
+			line-height: 13;
+			outline: none;
+		}
+
+		#d2{
+			height: 202px;
+			width: 730px;
+			float: right;
+			border-bottom: 1px solid #3b3b3b;
+		}
+
+		#d2head{
+			color: #b59b4a;
+			font-size: 13px;
+			letter-spacing: 4px;
+			padding-left: 80px;
+			padding-top: 40px;
+		}
+
+		#input1{
+			width: 317px;
+			height: 40px;
+			font-size: 16px;
+		}
+
+		#signup{
+			width: 222px;
+			height: 50px;
+			border: 3px solid white;
+			font-size: 14px;
+			letter-spacing: 4px;
+			font-weight: bold;
+		}
+
+		#d3{
+			height: 304px;
+			width: 188px;
+			margin-left: 45px;
+			float: left;
+			padding-top: 30px;
+		}
+		#d4{
+			height: 305px;
+			width: 185px;
+			margin-left: 15px;
+			text-align: left;
+			float: left;
+			padding-top: 30px;
+		}
+		#d5{
+			height: 305px;
+			width: 180px;
+			margin-left: 20px;
+			text-align: left;
+			float: left;
+			padding-top: 30px;
+		}
+		#d6{
+			height: 305px;
+			width: 180px;
+			margin-left: 25px;
+			float: left;
+			text-align: left;
+			padding-top: 30px;
+		}
+		#d7{
+			height: 305px;
+			width: 180px;
+			margin-left: 25px;
+			float: left;
+			text-align: left;
+			padding-top: 30px;
+		}
+
+		.buttontrans{
+			background-color: black;
+			color: white;
+			cursor: pointer;
+		}
+		.buttontrans:focus {
+    		background: white;
+    		color: black;
+    		cursor: pointer;
+		}
+		.buttontrans:hover {
+    		background: white;
+    		color: black;
+    		cursor: pointer;
+		}
+
+	</style>
+
+</head>
+
+<body>
+	<div id="container">
+		<div id="upper">
+
+			<div id="NO">
+				<p id="p1">LOCATION FAVOURITES</p>
+				<HR align=center width=350px color=#cccccc SIZE=3px noShade>
+				<div id="N13">
+					<div id="No"><a class="a_no" href="X.html#No.13" target="_blank">No.</a><br></div>
+					<div id="nmb13"><a class="a_13" href="X.html#No.13" target="_blank">13</a></div>
+				</div>
+				
+			</div>
+
+			<a class="a_touch" href="X.html#hello" target="_blank"><div id="sayhello" style="cursor: pointer;">
+				<p id="pp1"><br><br><br><br><br><br><br>INTERESTED IN WORKING WITH US?</p>
+				<p id="pp2"><br>We'd love to hear from you, so give us a call. Or, if you're the shy and retiring <br> drop us a line here and we'll get back to you.</p>
+			</div></a>
+
+			<div id="touch">
+				<form action="X.html#touch" target="_blank" method="get">
+				<input type="submit" class="buttontrans1" value="GET IN TOUCH" style="height: 54px; width: 283px; font-family: Arial, sans-serif; font-size: 13px; border: 4px solid black;	text-align: center;	line-height: 48px; letter-spacing: 4px;"/>
+				</form>
+			</div>
+
+		</div>
+
+
+		<div id="bottom">
+
+			<div id="d1" >
+				<h4><a class="link1" href="X.html#article" target="_blank">READ OUR LATEST ARTICLES</a></h4>
+			</div>
+
+			<div id="d2" >
+				<p id="d2head">SIGN UP TO OUR NEWSLETTER</p>
+				<center><form action="X.html#signup" target="_blank" method="get">
+				<input id="input1" style="padding-left: 8px;" type="text" name="Email" placeholder="Enter your email address" />
+				<input id="signup" type="submit" class="buttontrans" value="SIGN UP" />
+				</form></center>
+			</div>
+
+			<div id="d3" >
+				<h4 class="bottom_header1">HEADQUARTERS</h4>
+				<h5 class="bottom_header2">EDINBURGH</h5>
+				<p class="content">1012 Constituton Street<br>Edinburgh<br>Scotland<br>EH6 7AE</p>
+
+				<form action="X.html#contact" target="_blank" method="get">
+				<input type="submit" class="buttontrans" value="CONTACT US" style="width: 177px; height: 32px; margin-top: 25px; letter-spacing: 4px; border: 3px solid white;" />
+				</form>
+			</div>
+
+			<div id="d4" >
+				<p><br><br><br><br></p>
+				<p><span class="te">T: </span><span class="content">+44 (0) 555 561 0120</span><br><span class="te">E: </span><span><a class="e_underline" href="mailto: hello@productions.com" target="_blank">hello@productions.com</a></span></p>
+			</div>
+
+			<div id="d5" >
+				<h4 class="bottom_header1">OFFICES</h4>
+				<h5 class="bottom_header2">NEW YORK</h5>
+				<p class="content">12 E. 47th Street<br>5th Floor<br>New York, New York 10017<br>USA</p>
+				<p><span class="te">T: </span><span class="content">+1 121-555-8843</span><br><span class="te">E: </span><span><br><a class="e_underline" href="mailto: newyork@productions.com" target="_blank">newyork@productions.com</a></span></p>
+			</div>
+
+			<div id="d6" >
+				<h4 class="bottom_header1"><br></h4>
+				<h5 class="bottom_header2">LONDON</h5>
+				<p class="content">128 Dean Street<br>London<br>England<br>W1D 4QF<p>
+				<p><span class="te">T: </span><span class="content">+44 (0) 20 5555 1190</span><br><span class="te">E: </span><span><br><a class="e_underline" href="mailto: london@productions.com" target="_blank">london@productions.com</a></span></p>
+			</div>
+
+			<div id="d7" >
+				<h4 class="bottom_header1"><br></h4>
+				<h5 class="bottom_header2">MANCHESTER</h5>
+				<p class="content">37 Oldfield Road<br>Manchester<br>England<br>M5 4LZ<p>
+				<p><span class="te">T: </span><span class="content">+44 (0) 161 467 1212</span><br><span class="te">E: </span><span ><br><a class="e_underline" href="mailto: manchester@productions.com" target="_blank">manchester@productions.com</a></span></p>
+			</div>
+			
+		</div>
+	</div>
+</body>
+
+</html>
